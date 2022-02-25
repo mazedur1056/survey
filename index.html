@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Daily Life</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">A Survey On Your <span>Daily Life</span></div>
+        <form name="survey" action="">
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">First name</div>
+                    <div class="value-box">
+                        <input name="firstName" type="text">
+                        <p id="firstNameMsg">hello</p>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="key">Last name</div>
+                    <div class="value-box">
+                        <input id="lastName" type="text" placeholder="Little">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">Email</div>
+                    <div class="value-box">
+                        <input id="email" type="text" placeholder="struat@gmail.com">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="key">Phone</div>
+                    <div class="value-box">
+                        <input type="text" placeholder="+8801300000000">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">Birthdate</div>
+                    <div class="value-box">
+                        <input type="date" placeholder="struat@gmail.com">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="key">Birthplace</div>
+                    <div class="value-box">
+                        <input type="text" placeholder="Dhaka">
+                    </div>
+                </div>
+            </div>
+
+            <div class="present-addr">Your present address</div>
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">City</div>
+                    <div class="value-box">
+                        <input type="text" placeholder="Dhaka">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="key">State</div>
+                    <div class="value-box">
+                        <input type="text" placeholder="Bangladesh">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">You are?</div>
+                    <div class="value-box">
+                        <select name="occupation" id="occupation">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="engineer">Engineer</option>
+                            <option value="doctor">Doctor</option>
+                            <option value="Govt-service-holder">Govt service holder</option>
+                            <option value="farmer">Farmer</option>
+                            <option value="driver">driver</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">When do you wake up?</div>
+                    <div class="value-box">
+                        <input type="radio" id="w-time1" name="wake-up" value="1">
+                        <label for="w-time1">Before 7 am</label><br>
+                        <input type="radio" id="w-time2" name="wake-up" value="2">
+                        <label for="w-time2">7 am - 8 am</label><br>
+                        <input type="radio" id="w-time3" name="wake-up" value="3">
+                        <label for="w-time3">After 8 am</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">how many days do you wark in a week?</div>
+                    <div class="value-box">
+                        <input type="text" placeholder="5">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">how mush time do you work in a day? (hours)</div>
+                    <div class="value-box">
+                        <input type="text" placeholder="6">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">How much time do you spend at social media in a day?</div>
+                    <div class="value-box">
+                        <input type="radio" id="s-time1" name="social-media" value="1">
+                        <label for="s-time1">less then 1 hour</label><br>
+                        <input type="radio" id="s-time2" name="social-media" value="2">
+                        <label for="s-time2">1 - 2 hour(s)</label><br>
+                        <input type="radio" id="s-time3" name="social-media" value="3">
+                        <label for="s-time3">More than 2 hours</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">Which social media do you use often?</div>
+                    <div class="value-box">
+                        <input type="checkbox" id="facebook" name="social-media-type" value="facebook">
+                        <label for="facebok">Facebook</label><br>
+                        <input type="checkbox" id="twitter" name="social-media-type" value="twitter">
+                        <label for="twitter">Twitter</label><br>
+                        <input type="checkbox" id="snapchat" name="social-media-type" value="snapchat">
+                        <label for="snapchat">Snapchat</label><br>
+                        <input type="checkbox" id="instagram" name="social-media-type" value="instagram">
+                        <label for="instagram">Instagram</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-box">
+                    <div class="key">When do you go to bed?</div>
+                    <div class="value-box">
+                        <input type="radio" id="sl-time1" name="sleep" value="1">
+                        <label for="sl-time1">Before 10 pm</label><br>
+                        <input type="radio" id="sl-time2" name="sleep" value="2">
+                        <label for="sl-time2">10 pm - 11 pm</label><br>
+                        <input type="radio" id="sl-time3" name="sleep" value="3">
+                        <label for="sl-time3">After 11 pm</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <button type="button" onclick="validation()">Submit</button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

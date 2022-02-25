@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .title {
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0;
+    font-weight: 600;
+}
+.container .title span {
+    color: crimson;
+}
+.container .row {
+    display: flex;
+}
+.container .row .input-box {
+    padding: 0 6px;
+    margin: 0px 6px 14px;
+}
+.container .row .input-box .key {
+    margin: 5px 0;
+}
+.container .row .input-box .value-box input[type=text] {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px 6px;
+    font-size: 16px;
+}
+.container .row .input-box .value-box input[type=date] {
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px 6px;
+    font-size: 16px;
+}
+.container .present-addr {
+    margin: 12px 0 0 10px;
+    font-size: 19px;
+}
+.container .row .input-box .value-box input[type=radio] {
+    margin: 4px 0;
+}
+.container .row .input-box .value-box label {
+    font-size: 16px;
+    margin: 4px;
+}
