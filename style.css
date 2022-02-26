@@ -23,6 +23,9 @@ body {
     padding: 0 6px;
     margin: 0px 6px 14px;
 }
+.container .row .input-box p {
+    color: red;
+}
 .container .row .input-box .key {
     margin: 5px 0;
 }
